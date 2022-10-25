@@ -15,7 +15,11 @@ const Data: Team[] = [
     superBowls: { wins: [1994, 1989, 1988, 1984, 1981], losses: [2019, 2012] },
     city: 'San Francisco'
   },
-  { name: 'Bears', superBowls: { wins: [1985], losses: [2006] } },
+  {
+    name: 'Bears',
+    superBowls: { wins: [1985], losses: [2006] },
+    city: 'Chicago'
+  },
   { name: 'Bengals', superBowls: { wins: [], losses: [2021, 1988, 1981] } },
   { name: 'Bills', superBowls: { wins: [], losses: [1993, 1992, 1991, 1990] } },
   { name: 'Browns', superBowls: { wins: [], losses: [] } },
