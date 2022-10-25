@@ -6,12 +6,14 @@ interface SuperBowls {
 interface Team {
   name: string;
   superBowls: SuperBowls;
+  city?: string;
 }
 
 const Data: Team[] = [
   {
     name: '49ers',
-    superBowls: { wins: [1994, 1989, 1988, 1984, 1981], losses: [2019, 2012] }
+    superBowls: { wins: [1994, 1989, 1988, 1984, 1981], losses: [2019, 2012] },
+    city: 'San Francisco'
   },
   { name: 'Bears', superBowls: { wins: [1985], losses: [2006] } },
   { name: 'Bengals', superBowls: { wins: [], losses: [2021, 1988, 1981] } },
